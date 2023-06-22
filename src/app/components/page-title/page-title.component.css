@@ -1,11 +1,12 @@
 .container_page-title > h1 {
   color: white;
   padding: 10px 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  font-size: 8rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4rem;
   display: flex;
   justify-content: center;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .container_page-title > hr {
@@ -13,4 +14,16 @@
   background-color: #2a2a2a;
   border: none;
   margin: 15px 0;
+}
+
+@media (min-width: 768px) {
+  .container_page-title > h1 {
+    font-size: 6rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .container_page-title > h1 {
+    font-size: 8rem;
+  }
 }

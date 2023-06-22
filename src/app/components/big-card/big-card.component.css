@@ -1,0 +1,26 @@
+.container__big-card {
+  display: flex;
+  flex-direction: column;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.big-card__photo,
+.big-card__date,
+.big-card__title {
+  margin-bottom: 10px;
+}
+
+.big-card__photo figure,
+.big-card__photo figure img {
+  width: 100%;
+}
+
+.big-card__date > span {
+  color: #646464;
+  font-size: 0.9rem;
+}
+
+.big-card__title,
+.big-card__description {
+  letter-spacing: 1px;
+}
