@@ -1,4 +1,4 @@
-.container__big-card {
+.content__card {
   display: flex;
   flex-direction: column;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
@@ -23,4 +23,15 @@
 .big-card__title,
 .big-card__description {
   letter-spacing: 1px;
+}
+
+.container__big-card hr {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .container__big-card hr {
+    display: none;
+  }
 }

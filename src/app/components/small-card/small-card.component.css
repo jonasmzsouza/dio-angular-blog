@@ -1,0 +1,43 @@
+.content__small-card {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.content__small-card hr {
+  margin: 15px 0;
+}
+
+.small-card__photo {
+  width: 40%;
+}
+
+.small-card__photo figure,
+.small-card__photo figure img {
+  width: 100%;
+}
+
+.small-card__info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.small-card__date {
+  margin-bottom: 5px;
+}
+
+.small-card__date > span {
+  color: #646464;
+  font-size: 0.9rem;
+}
+
+.small-card__title {
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}
+
+@media (min-width: 768px) {
+  .content__small-card {
+    display: flex;
+    flex-direction: row;
+  }
+}
