@@ -1,3 +1,8 @@
+.container__home {
+  margin: 0 auto;
+  margin-top: 95px;
+}
+
 .container__articles {
   display: flex;
   justify-content: center;
@@ -12,7 +17,6 @@
 
 @media (min-width: 576px) {
   .container__home {
-    margin: 0 auto;
     padding: 0 20px;
     max-width: 540px;
   }

@@ -1,20 +1,43 @@
-<nav class="container__navbar">
-  <div class="navbar__brand">
-    <h1>JS</h1>
-  </div>
-  <button class="navbar__toggler" type="button">
-    <img
-      src="../../../assets/images/hamburguer.svg"
-      class="navbar__toggler-icon"
-    />
-  </button>
-  <div class="navbar__collapse">
-    <div class="navbar__items">
-      <ul>
-        <li><a href="https://www.linkedin.com/in/jonasmzsouza" target="_blank" rel="noopener noreferrer">Linkedin</a></li>
-        <li><a href="https://github.com/jonasmzsouza" target="_blank" rel="noopener noreferrer">Github</a></li>
-        <li><a href="https://jonasmzsouza.github.io/" target="_blank" rel="noopener noreferrer">Portfólio</a></li>
-      </ul>
+<header>
+  <nav class="container__navbar">
+    <div class="navbar__brand">
+      <h1>JS</h1>
     </div>
-  </div>
-</nav>
+    <button (click)="collapse()" class="navbar__toggler" type="button">
+      <img
+        src="../../../assets/images/hamburguer.svg"
+        class="navbar__toggler-icon"
+      />
+    </button>
+    <div [ngClass]="collapsed">
+      <div class="navbar__items">
+        <ul>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/jonasmzsouza"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Linkedin</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/jonasmzsouza"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Github</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://jonasmzsouza.github.io/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Portfólio</a
+            >
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>

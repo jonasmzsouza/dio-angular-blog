@@ -11,7 +11,8 @@
       ></app-big-card>
     </section>
     <section class="articles__aside">
-      <app-small-card *ngFor="let smallCard of smallCardList | slice:1"
+      <app-small-card
+        *ngFor="let smallCard of smallCardList | slice : 1"
         id="{{ smallCard.id }}"
         cardImage="{{ smallCard.image }}"
         cardDate="{{ smallCard.date }}"

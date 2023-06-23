@@ -1,23 +1,24 @@
 .container__card-details {
-  margin: auto;
+  margin: 0 auto;
+  margin-top: 95px;
   padding: 0 20px;
   display: flex;
   flex-direction: column;
 }
 
+.container__card-details__back {
+  margin-top: 20px;
+}
+
 .content__card-details {
-  width: 50%;
-  margin: 20px auto;
+  width: 100%;
+  margin: 40px auto;
 }
 
 .card-details__photo,
 .card-details__date,
 .card-details__title {
   margin-bottom: 10px;
-}
-
-.card-details__photo {
-  width: 600px;
 }
 
 .card-details__photo figure,
@@ -42,8 +43,8 @@
     max-width: 720px;
   }
 
-  .container__articles {
-    flex-direction: row;
+  .content__card-details {
+    width: 75%;
   }
 }
 
@@ -51,6 +52,10 @@
   .container__card-details {
     padding: 0 60px;
     max-width: 960px;
+  }
+
+  .content__card-details {
+    width: 50%;
   }
 }
 
