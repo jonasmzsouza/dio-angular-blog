@@ -1,27 +1,94 @@
-# DioAngularBlog
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/jonasmzsouza/dio-angular-blog?style=flat-square&color=f1783f">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jonasmzsouza/dio-angular-blog?style=flat-square&color=1f6feb">
+  <a href="https://github.com/jonasmzsouza/dio-angular-blog/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jonasmzsouza/dio-angular-blog/main?style=flat-square&color=2f74c0">
+  </a>
+</p>
+
+<hr>
+
+<p align="center"> 
+  <a href="https://dio-angular-blog.netlify.app/" target="_blank">
+    <img src="https://img.shields.io/static/v1?label=:&message=website&color=a42d66&style=for-the-badge&logo=netlify&logo-color=white"/>
+  </a>
+  <img  src="https://raw.githubusercontent.com/jonasmzsouza/jonasmzsouza.github.io/main/assets/images/dio-angular-blog.jpg"  width="100%"  alt="screenshot dio angular blog">
+</p>
+<hr>
+
+<p align="center">
+  <a href="#-about-the-project">About</a> |
+  <a href="#-technologies">Technologies</a> | 
+  <a href="#-how-to">How to</a> | 
+  <a href="#-learning">Learning</a> | 
+  <a href="#-author">Author</a> 
+</p>
+
+## 💻 About the project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+This project was developed with Angular based on the dribbble layout from the Angular Developer Training at [Digital Innovation One](https://www.dio.me/). Cloud deployment with Netlify.
+A simple blogging web app using basic Angular properties and directives.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🛠 Technologies
 
-## Code scaffolding
+Technologies and tools that were used in the development of the project:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### **Languages | Environments | Frameworks | Libraries | Techniques**
 
-## Build
+- HTML5
+- CSS3
+- TypeScript
+- Angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### **Utilities**
 
-## Running unit tests
+- Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
+- Emojis: **[Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
+- Shields: **[Shields](https://shields.io/)**
+- Deploy: **[Netlify](https://www.netlify.com/)**
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+---
 
-## Running end-to-end tests
+## 🔧 How to
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Requirements
+- node 18.x
+- npm 9.x
+- angular cli 14.1.2
+### Installation
+1. clone repo
+2. delete the file `package-lock.json`
+3. install the dependencies `npm install`
+4. run `ng serve` for a dev server
+5. navigate to `http://localhost:4200/`
 
-## Further help
+---
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## 📖 Learning
+
+- Components
+- LifeCycle Hooks
+- Structural Directives
+- Attribute Directives
+- Routes
+
+---
+
+## 👨‍💻 Author
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://jonasmzsouza.github.io/">
+         <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/61324433?v=4" width="100px;" alt=""/>
+         <br />
+         <sub><b>Jonas Souza</b></sub>
+      </a>
+    </td>
+  </tr>
+</table>
+ 
+[![Github Badge](https://img.shields.io/badge/-jonasmzsouza-3e4957?style=flat-square&logo=Github&logoColor=white&link=https://github.com/jonasmzsouza)](https://github.com/jonasmzsouza) [![Linkedin Badge](https://img.shields.io/badge/-jonasmzsouza-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jonasmzsouza/)](https://www.linkedin.com/in/jonasmzsouza/)
