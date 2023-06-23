@@ -33,4 +33,9 @@ hr {
 a {
   color: #646464;
   text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: white;
 }

@@ -1,0 +1,30 @@
+<div class="container__card-details">
+  <hr />
+  <div>
+    <a [routerLink]="['']">&#171; Voltar</a>
+  </div>
+  <div class="content__card-details">
+    <div class="card-details__photo">
+      <figure>
+        <img
+          src="{{ cardImage }}"
+          alt=""
+          srcset=""
+        />
+      </figure>
+    </div>
+    <div class="card-details__date">
+      <span>{{ cardDate }}</span>
+    </div>
+    <div class="card-details__title">
+      <a href="http://">
+        <h2>{{ cardTitle }}</h2>
+      </a>
+    </div>
+    <div class="card-details__description">
+      <p>
+        {{ cardDescription }}
+      </p>
+    </div>
+  </div>
+</div>
