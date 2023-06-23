@@ -3,27 +3,19 @@
   <article class="container__articles">
     <section class="articles__main">
       <app-big-card
-        cardImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtvBu16sbG5CIpXqTO7k03JmjOouJivut3NEFOTmHx6Yp4H_8zacUwgnovjZP7RwDqbE&usqp=CAU"
-        cardDate="June 22, 2023"
-        cardTitle="Card Title"
-        cardDescription="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit aliquid quaerat fuga facere id, saepe nobis provident voluptatum culpa eius?"
+        id="{{ bigCard.id }}"
+        cardImage="{{ bigCard.image }}"
+        cardDate="{{ bigCard.date }}"
+        cardTitle="{{ bigCard.title }}"
+        cardDescription="{{ bigCard.description }}"
       ></app-big-card>
     </section>
     <section class="articles__aside">
-      <app-small-card
-        cardImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtvBu16sbG5CIpXqTO7k03JmjOouJivut3NEFOTmHx6Yp4H_8zacUwgnovjZP7RwDqbE&usqp=CAU"
-        cardDate="June 22, 2023"
-        cardTitle="Card Title"
-      ></app-small-card>
-      <app-small-card
-        cardImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtvBu16sbG5CIpXqTO7k03JmjOouJivut3NEFOTmHx6Yp4H_8zacUwgnovjZP7RwDqbE&usqp=CAU"
-        cardDate="June 22, 2023"
-        cardTitle="Card Title"
-      ></app-small-card>
-      <app-small-card
-        cardImage="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtvBu16sbG5CIpXqTO7k03JmjOouJivut3NEFOTmHx6Yp4H_8zacUwgnovjZP7RwDqbE&usqp=CAU"
-        cardDate="June 22, 2023"
-        cardTitle="Card Title"
+      <app-small-card *ngFor="let smallCard of smallCardList | slice:1"
+        id="{{ smallCard.id }}"
+        cardImage="{{ smallCard.image }}"
+        cardDate="{{ smallCard.date }}"
+        cardTitle="{{ smallCard.title }}"
       ></app-small-card>
     </section>
   </article>

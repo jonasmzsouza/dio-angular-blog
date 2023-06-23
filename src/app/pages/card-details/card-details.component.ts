@@ -1,22 +1,29 @@
 import { Component, OnInit } from '@angular/core';
-
+import { ActivatedRoute } from '@angular/router';
+import { dataFake } from 'src/app/data/dataFake';
 @Component({
   selector: 'app-card-details',
   templateUrl: './card-details.component.html',
   styleUrls: ['./card-details.component.css'],
 })
 export class CardDetailsComponent implements OnInit {
+  private id: string | null = '0';
+  cardImage: string = '';
+  cardDate: string = '';
+  cardTitle: string = '';
+  cardDescription: string = '';
+  constructor(private route: ActivatedRoute) {}
 
-  cardImage: string =
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtvBu16sbG5CIpXqTO7k03JmjOouJivut3NEFOTmHx6Yp4H_8zacUwgnovjZP7RwDqbE&usqp=CAU';
+  ngOnInit(): void {
+    this.route.paramMap.subscribe((value) => (this.id = value.get('id')));
+    this.setValuesToComponent(this.id);
+  }
 
-  cardDate: string = 'June 22, 2023';
-
-  cardTitle: string = 'Card Title';
-
-  cardDescription: string =
-    'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit aliquid quaerat fuga facere id, saepe nobis provident voluptatum culpa eius?';
-  constructor() {}
-
-  ngOnInit(): void {}
+  setValuesToComponent(id: string | null) {
+    const result = dataFake.filter((article) => article.id == id)[0];
+    this.cardDate = result.date;
+    this.cardImage = result.image;
+    this.cardTitle = result.title;
+    this.cardDescription = result.description;
+  }
 }

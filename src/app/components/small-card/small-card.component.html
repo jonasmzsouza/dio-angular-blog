@@ -10,7 +10,7 @@
         <span>{{ cardDate }}</span>
       </div>
       <div class="small-card__title">
-        <a href="http://">
+        <a [routerLink]="['card-details', id]">
           <h2>{{ cardTitle }}</h2>
         </a>
       </div>
