@@ -2,19 +2,17 @@
   <div class="content__small-card">
     <div class="small-card__photo">
       <figure>
-        <img
-          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmtvBu16sbG5CIpXqTO7k03JmjOouJivut3NEFOTmHx6Yp4H_8zacUwgnovjZP7RwDqbE&usqp=CAU"
-          alt=""
-          srcset=""
-        />
+        <img src="{{ cardImage }}" alt="{{ cardTitle }}" srcset="" />
       </figure>
     </div>
     <div class="small-card__info">
       <div class="small-card__date">
-        <span>June 22, 2023</span>
+        <span>{{ cardDate }}</span>
       </div>
       <div class="small-card__title">
-        <h2>Card Title</h2>
+        <a href="http://">
+          <h2>{{ cardTitle }}</h2>
+        </a>
       </div>
     </div>
   </div>

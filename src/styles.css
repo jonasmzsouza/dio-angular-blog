@@ -30,7 +30,7 @@ hr {
   margin: 15px 0;
 }
 
-ul > li > a {
+a {
   color: #646464;
   text-decoration: none;
 }
