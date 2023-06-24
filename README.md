@@ -56,7 +56,7 @@ Technologies and tools that were used in the development of the project:
 
 ### Requirements
 - node 16.x
-- npm 9.x
+- npm 8.x
 - angular cli 14.1.2
 
 ### Installation
