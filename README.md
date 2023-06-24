@@ -26,8 +26,8 @@
 
 ## 💻 About the project
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
-This project was developed with Angular based on the dribbble layout from the Angular Developer Training at [Digital Innovation One](https://www.dio.me/). Cloud deployment with Netlify.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.<br>
+This project was developed with Angular based on the dribbble layout from the Angular Developer Training at [Digital Innovation One](https://www.dio.me/). Cloud deployment with Netlify.<br>
 A simple blogging web app using basic Angular properties and directives.
 
 ---
@@ -55,9 +55,10 @@ Technologies and tools that were used in the development of the project:
 ## 🔧 How to
 
 ### Requirements
-- node 18.x
+- node 16.x
 - npm 9.x
 - angular cli 14.1.2
+
 ### Installation
 1. clone repo
 2. delete the file `package-lock.json`
