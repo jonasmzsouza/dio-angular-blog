@@ -48,6 +48,7 @@ Technologies and tools that were used in the development of the project:
 - Editor: **[Visual Studio Code](https://code.visualstudio.com/)**
 - Emojis: **[Emoji Cheat Sheet](https://github.com/ikatyang/emoji-cheat-sheet)**, **[Markdown Emoji](https://gist.github.com/rxaviers/7360908)**
 - Shields: **[Shields](https://shields.io/)**
+- Images: **[Picsum](https://picsum.photos/)**
 - Deploy: **[Netlify](https://www.netlify.com/)**
 
 ---
